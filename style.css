@@ -32,9 +32,11 @@
     color: aliceblue;
     position: fixed;
     top: 0;
+    display: flex;
     transform: relative;
     height: 60px;
     align-items: center;
+    padding-left: 1%;
 }
 a{
     text-decoration: none;
@@ -42,10 +44,16 @@ a{
     border-spacing: 10%;
     
 }
+#logo{
+    height:45px;
+    border-radius: 25%;
+    
+}
 #navbar{
     padding-left: 2%;
     padding-top: 1.5%;
-    float: left;
+    padding-bottom: 1.5%;
+    font-size: 40px;
 
 }
 .main-section header{
